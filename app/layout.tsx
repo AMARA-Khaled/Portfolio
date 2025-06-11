@@ -9,8 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Amara Khaled Walid | Portfolio",
-  description: "Full Stack Developer & Computer Science Student",
-    generator: 'v0.dev'
+  icons: {
+    icon: "/favicon.svg",
+  },
 }
 
 export default function RootLayout({
