@@ -29,7 +29,7 @@ export default function Hero() {
         >
            <div>
             <img
-              src="/DSC09464.jpg"
+              src="/DSC09464.JPG"
               alt="weed"
               className="w-60 h-60 rounded-full flex items-center justify-center text-6xl font-bold mb-4 mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]"
             />
