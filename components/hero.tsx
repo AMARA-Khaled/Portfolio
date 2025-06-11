@@ -27,9 +27,18 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-6"
         >
-          <div>
-            <img src="/DSC09464.jpg" alt="weed" className="w-60 h-60 rounded-full  flex items-center justify-center text-6xl font-bold mb-4 mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]" />
-          </div>
+           <div>
+            <img
+              src="/DSC09464.jpg"
+              alt="weeed"
+              className="w-60 h-60 rounded-full flex items-center justify-center text-6xl font-bold mb-4 mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]"
+              loading="lazy"
+              onError={(e) => {
+               // fallback for image not found
+               (e.currentTarget as HTMLImageElement).style.display = "none"
+              }}
+            />
+           </div>
         </motion.div>
 
         <motion.h1
