@@ -9,24 +9,33 @@ import { ExternalLink, Github } from "lucide-react"
 
 export default function Projects() {
   const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  })
-
+     triggerOnce: true,
+     threshold: 0.1,
+   })
+   
   const projects = [
     {
       title: "Needs.ai",
       description:
-        "A full-stack product demand prediction website built with React.js, Express.js, and Python. Enables users to manage products and visualize future needs through advanced prediction algorithms.",
+      "A full-stack product demand prediction website built with React.js, Express.js, and Python. Enables users to manage products and visualize future needs through advanced prediction algorithms.",
       technologies: ["React.js", "Express.js", "Python", "Machine Learning"],
       liveUrl: "https://needs-ai.vercel.app/",
       githubUrl: null,
       featured: true,
-    },
-    {
+   },
+   {
+     title: "Meow-ssion Impossible Website",
+     description:
+       "A website to Download and Explore a game, using Next.js. Features an engaging interface for game discovery and download functionality with modern web technologies.",
+     technologies: ["Next.js", "React", "JavaScript", "Web Development"],
+     liveUrl: "https://meow-ssion-impossible.vercel.app/",
+     githubUrl: "https://github.com/AMARA-Khaled/meow-ssion-impossible-website",
+     featured: true,
+   },
+   {
       title: "Occupational Health Medical Visit Management",
       description:
-        "A console-based system built in C to manage employee health visits, featuring efficient data storage and retrieval for patient information management.",
+      "A console-based system built in C to manage employee health visits, featuring efficient data storage and retrieval for patient information management.",
       technologies: ["C", "Data Structures", "File I/O"],
       githubUrl: "https://github.com/AMARA-Khaled/Occupational-Health-Medical-Visit-Management",
       featured: false,
@@ -45,14 +54,6 @@ export default function Projects() {
         "An internal club project developed for ETIC Club, showcasing web development skills and contributing to the club's digital presence. Private club project.",
       technologies: ["Web Development", "JavaScript", "HTML/CSS"],
       githubUrl: null,
-      featured: false,
-    },
-    {
-      title: "Meow-ssion Impossible Website",
-      description:
-        "A website to Download and Explore a game, using Next.js. Features an engaging interface for game discovery and download functionality with modern web technologies.",
-      technologies: ["Next.js", "React", "JavaScript", "Web Development"],
-      githubUrl: "https://github.com/AMARA-Khaled/meow-ssion-impossible-website",
       featured: false,
     },
     {
