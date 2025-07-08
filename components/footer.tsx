@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row items-center gap-4">
             <div className="flex flex-col md:flex-row gap-4 text-sm text-muted-foreground">
               <a href="tel:+213776202361" className="hover:text-primary transition-colors">
-                📞 0776202361
+               0776202361
               </a>
               <a href="mailto:ok_amara@esi.dz" className="hover:text-primary transition-colors">
-                ✉️ ok_amara@esi.dz
+               ok_amara@esi.dz
               </a>
             </div>
           </div>

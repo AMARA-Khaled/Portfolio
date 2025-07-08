@@ -22,13 +22,31 @@ export default function Experience() {
       type: "education",
     },
     {
-      title: "Event Coordinator",
+      title: "Intern",
+      organization: "Cosider TP - CSI",
+      period: "June - July 2025",
+      description:
+        "Completed a 2-week internship at Cosider TP - CSI, gaining practical and theoretical experience in software development, company hierarchy and project management.",
+      icon: <GraduationCap className="w-5 h-5" />,
+      type: "internship",
+    },
+    {
+      title: "Before S2EE 16 Event Coordinator",
       organization: "ETIC Club",
-      period: "2025",
+      period: "Mars - May 2025",
       description:
         "Event coordinator for the ETIC Club, demonstrating leadership and organizational skills in tech community building and event management.",
       icon: <Calendar className="w-5 h-5" />,
       type: "leadership",
+    },
+    {
+      title: "Active Member",
+      organization: "ETIC Club",
+      period: "2024 - Present",
+      description:
+        "Contributing member of ETIC Club, participating in various initiatives and collaborative projects.",
+      icon: <Users className="w-5 h-5" />,
+      type: "membership",
     },
     {
       title: "Active Member",
