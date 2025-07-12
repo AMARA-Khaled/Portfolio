@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Card, CardContent } from "@/components/ui/card"
 import { GraduationCap, Users, Calendar } from "lucide-react"
+import { Briefcase } from "lucide-react"
 
 export default function Experience() {
   const [ref, inView] = useInView({
@@ -11,62 +12,71 @@ export default function Experience() {
     threshold: 0.1,
   })
 
-  const experiences = [
-    {
+const experiences = [
+   {
       title: "Computer Science Student",
-      organization: "ESI Algiers",
+      organization: <a href="https://www.esi.dz/">ESI Algiers</a>,
       period: "2024 - Present (2nd Year)",
       description:
-        "2nd year Computer Science student focusing on software development, algorithms, and data structures.",
+         "2nd year Computer Science student focusing on software development, algorithms, and data structures.",
       icon: <GraduationCap className="w-5 h-5" />,
       type: "education",
-    },
-    {
+   },
+   {
       title: "Intern",
       organization: "Cosider TP - CSI",
       period: "June - July 2025",
       description:
-        "Completed a 2-week internship at Cosider TP - CSI, gaining practical and theoretical experience in software development, company hierarchy and project management.",
-      icon: <GraduationCap className="w-5 h-5" />,
+         "Completed a 2-week internship at Cosider TP - CSI, gaining practical and theoretical experience in software development, company hierarchy and project management.",
+      icon: <Briefcase className="w-5 h-5" />, // Special icon for internship
       type: "internship",
-    },
-    {
+   },
+   {
+      title: "Next.js Intern",
+      organization: <a href="https://arimayi.fr/">AriMayi</a>,
+      period: "July 2025 - Present",
+      description:
+         "Remote internship focused on developing and maintaining web applications using Next.js, collaborating with cross-functional teams, and implementing modern frontend features to enhance user experience.",
+      icon: <Briefcase className="w-5 h-5" />, // Special icon for internship
+      type: "education",
+   },
+   {
       title: "Before S2EE 16 Event Coordinator",
-      organization: "ETIC Club",
+      organization: <a href="https://www.instagram.com/etic_club/">ETIC Club</a>,
       period: "Mars - May 2025",
       description:
-        "Event coordinator for the ETIC Club, demonstrating leadership and organizational skills in tech community building and event management.",
+         "Event coordinator for the ETIC Club, demonstrating leadership and organizational skills in tech community building and event management.",
       icon: <Calendar className="w-5 h-5" />,
       type: "leadership",
-    },
-    {
+   },
+   {
       title: "Active Member",
-      organization: "ETIC Club",
+      organization: <a href="https://www.instagram.com/etic_club/">ETIC Club</a>,
       period: "2024 - Present",
       description:
-        "Contributing member of ETIC Club, participating in various initiatives and collaborative projects.",
+         "Contributing member of ETIC Club, participating in various initiatives and collaborative projects.",
       icon: <Users className="w-5 h-5" />,
       type: "membership",
-    },
-    {
+   },
+   {
       title: "Active Member",
-      organization: "SOAI Club",
+      organization: <a href="https://www.instagram.com/soai_algiers/">SOAI Club</a>,
       period: "2024 - Present",
       description:
-        "Contributing member of SOAI Club, participating in various tech initiatives and collaborative projects.",
+         "Contributing member of SOAI Club, participating in various tech initiatives and collaborative projects.",
       icon: <Users className="w-5 h-5" />,
       type: "membership",
-    },
-    {
+   },
+   {
       title: "Active Member",
-      organization: "Shellmates Club",
+      organization: <a href="https://www.instagram.com/shellmates/">Shellmates Club</a>,
       period: "2024 - Present",
       description:
-        "Member of Shellmates cybersecurity club, exploring security concepts and participating in CTF competitions.",
+         "Member of Shellmates cybersecurity club, exploring security concepts and participating in CTF competitions.",
       icon: <Users className="w-5 h-5" />,
       type: "membership",
-    },
-  ]
+   },
+]
 
   const container = {
     hidden: { opacity: 0 },
