@@ -15,15 +15,6 @@ export default function Projects() {
 
    const projects = [
       {
-         title: "Customer Relationship Management Website",
-         description:
-            "A responsive front-end CRM interface built with Next.js, allowing users to view, search, sort, and add clients using mocked data. Includes a mock login page, a client detail view, and dynamic form handling with API route integration.",
-         technologies: ["Next.js", "React", "TypeScript", "Web Development", "API Integration"],
-         liveUrl: "https://crm-arimayi.vercel.app/",
-         githubUrl: "https://github.com/AMARA-Khaled/CRM",
-         featured: true,
-      },
-      {
          title: "Meow-ssion Impossible Website",
          description:
             "A website to Download and Explore a game, using Next.js. Features an engaging interface for game discovery and download functionality with modern web technologies.",
@@ -65,14 +56,7 @@ export default function Projects() {
          githubUrl: "https://github.com/AMARA-Khaled/Optimized-Word-Search-Using-BST-Variants",
          featured: false,
       },
-      {
-         title: "ETIC Friv",
-         description:
-            "An internal club project developed for ETIC Club, showcasing web development skills and contributing to the club's digital presence. Private club project.",
-         technologies: ["Web Development", "JavaScript", "HTML/CSS"],
-         githubUrl: null,
-         featured: false,
-      },
+      
    ]
 
    const container = {

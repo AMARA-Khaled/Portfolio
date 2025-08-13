@@ -25,13 +25,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-6"
+          className="mb-6 p-5"
         >
            <div>
             <img
               src="/DSC09464.JPG"
               alt="weed"
-              className="w-60 h-60 rounded-full flex items-center justify-center text-6xl font-bold mb-4 mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]"
+              className="w-60 h-60 rounded-full flex items-center justify-center text-6xl font-bold mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]"
             />
            </div>
         </motion.div>
@@ -51,7 +51,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mb-8 h-12 flex justify-center"
         >
-          <div className="typing-demo text-xl md:text-2xl">Full Stack Developer</div>
+          <div className="typing-demo vw-100 text-xl md:text-2xl">Second Year Computer Science Student at ESI Algiers</div>
         </motion.div>
 
         <motion.p
@@ -60,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-8"
         >
-          Computer Science Student at ESI Algiers passionate about web development, data science, and open source.
+          Development Manager at ETIC Club, passionate about web development, data science, and open source.
         </motion.p>
 
         <motion.div

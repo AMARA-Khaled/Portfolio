@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import LetterGlitch from "@/components/ui/glitch-bg"
 
 export default function About() {
   const [ref, inView] = useInView({
@@ -11,11 +10,7 @@ export default function About() {
   })
 
   return (
-    <section id="about" className="py-20 relative overflow-hidden">
-      {/* Glitch Background */}
-      <div className="absolute inset-0 z-0">
-        <LetterGlitch glitchSpeed={50} centerVignette={true} outerVignette={false} smooth={true} />
-      </div>
+    <section id="about" className="py-20 relative overflow-hidden bg-muted/30">
 
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
@@ -34,8 +29,9 @@ export default function About() {
           </h2>
           <div className="bg-card/90 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-lg border">
             <p className="text-lg mb-6">
-              Welcome to my portfolio! I'm a second-year Computer Science student at ESI Algiers and a passionate
-              developer who enjoys building web apps, learning new technologies, and contributing to open source.
+              Welcome to my portfolio! I'm a second-year Computer Science student at ESI Algiers with a passion for technology, 
+              problem-solving, and community-driven projects. 
+              I balance academic growth with active participation in tech clubs and hands-on development work.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
@@ -43,23 +39,23 @@ export default function About() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Intermediate front-end development</span>
+                    <span>Web development (front-end & back-end)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Exploring backend development</span>
+                    <span>Data science & AI projects</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Learning data science & machine learning</span>
+                    <span>Leadership & event coordination at ETIC Club</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Dabbling in game development with Godot</span>
+                    <span>Game development with Godot (beginner)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Exploring cybersecurity</span>
+                    <span>Exploring cybersecurity & participating in CTFs</span>
                   </li>
                 </ul>
               </div>
@@ -68,7 +64,7 @@ export default function About() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Contributing to open source projects</span>
+                    <span>Learning new programming languages & frameworks</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
@@ -76,11 +72,11 @@ export default function About() {
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Team and project management</span>
+                    <span>Data-driven problem solving</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Learning new technologies</span>
+                    <span>Low-level programming & performance optimization</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
