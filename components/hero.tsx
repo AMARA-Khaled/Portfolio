@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false)
@@ -28,10 +29,12 @@ export default function Hero() {
           className="mb-6 p-5"
         >
            <div>
-            <img
+            <Image
               src="/DSC09464.JPG"
               alt="weed"
               className="w-60 h-60 rounded-full flex items-center justify-center text-6xl font-bold mx-auto shadow-[0_0_50px_rgba(74,222,128,0.5)]"
+              width={240}
+              height={240}
             />
            </div>
         </motion.div>
