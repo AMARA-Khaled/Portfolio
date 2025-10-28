@@ -51,7 +51,7 @@ export default function Experience() {
             "Leading the development department, overseeing technical projects and mentoring team members in software development practices.",
         },
         {
-          title: "S2EE 16 Event Coordinator",
+          title: "Before S2EE 16 Event Coordinator",
           period: "March - May 2025",
           description:
             "Coordinated events for the ETIC Club, demonstrating leadership and organizational skills in tech community building and project management.",
