@@ -183,7 +183,7 @@ export default function Navbar() {
 
           {/* Menu Footer */}
           <div className="p-4 border-t">
-            <p className="text-sm text-muted-foreground text-center">© 2025 Walid El Weed</p>
+            <p className="text-sm text-muted-foreground text-center">© 2026 Amara Khaled Walid</p>
           </div>
         </div>
       </div>

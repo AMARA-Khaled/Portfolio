@@ -29,9 +29,7 @@ export default function About() {
           </h2>
           <div className="bg-card/90 backdrop-blur-sm rounded-lg p-6 md:p-8 shadow-lg border">
             <p className="text-lg mb-6">
-              Welcome to my portfolio! I'm a second-year Computer Science student at ESI Algiers with a passion for technology, 
-              problem-solving, and community-driven projects. 
-              I balance academic growth with active participation in tech clubs and hands-on development work.
+              Welcome to my portfolio! I'm a Computer Science Engineering student at the National Higher School of Computer Science (ESI Algiers) and a versatile Full Stack &amp; Backend Developer. I specialize in building robust web platforms, high-performance backend APIs, and transactional systems with clean architecture. With a strong foundation in software engineering and hands-on experience in leadership, AI integration, and hackathons, I thrive on turning complex problems into scalable digital solutions.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
@@ -39,23 +37,27 @@ export default function About() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Web development (front-end & back-end)</span>
+                    <span>Full-stack web development (React, Next.js, Node.js, FastAPI)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Data science & AI projects</span>
+                    <span>Database modeling & query optimization (PostgreSQL, pgvector, MySQL, NoSQL)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Leadership & event coordination at ETIC Club</span>
+                    <span>AI integrations, Agentic RAG, Text-to-SQL & data pipelines</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Game development with Godot (beginner)</span>
+                    <span>Development Department Manager & Technical Mentor at ETIC Club</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Exploring cybersecurity & participating in CTFs</span>
+                    <span>Cloud, Linux server administration, Docker & DevOps practices</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Secure API architecture (JWT, OAuth, RBAC) & web security</span>
                   </li>
                 </ul>
               </div>
@@ -64,23 +66,23 @@ export default function About() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Learning new programming languages & frameworks</span>
+                    <span>FinTech, digital payments & transactional integrity</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Active member in student-led clubs</span>
+                    <span>Distributed systems, resilient microservices & Cloud computing</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Data-driven problem solving</span>
+                    <span>Mentoring student developers & coaching hackathon teams</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Low-level programming & performance optimization</span>
+                    <span>Open-source tooling & browser automation (MCP, CDP, WebSockets)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2">▹</span>
-                    <span>Building innovative web applications</span>
+                    <span>Algerian startup ecosystem & technological innovation</span>
                   </li>
                 </ul>
               </div>

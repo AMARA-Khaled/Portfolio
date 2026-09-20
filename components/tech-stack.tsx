@@ -11,24 +11,25 @@ import {
   Nextdotjs,
   Nodedotjs,
   Python,
+  Fastapi,
   C,
   Cplusplus,
   Vercel,
-  Assembly,
   Tailwindcss,
   Express,
+  Postgresql,
   Mongodb,
   Mysql,
+  Docker,
   Git,
   Linux,
-   Bash,
-   Pandas,
-   Numpy,
-   ScikitLearn,
-   Tensorflow,
-   Django,
-   Docker,
-   Github
+  Github,
+  Bash,
+  Pandas,
+  Numpy,
+  ScikitLearn,
+  Tensorflow,
+  Django
 } from "@/components/tech-icons"
 
 export default function TechStack() {
@@ -53,39 +54,39 @@ export default function TechStack() {
   }
 
   const techStack = [
-    { icon: <Html5 />, name: "HTML" },
-    { icon: <Css3 />, name: "CSS" },
-    { icon: <Tailwindcss />, name: "Tailwind" },
-    { icon: <Javascript />, name: "JavaScript" },
     { icon: <Typescript />, name: "TypeScript" },
+    { icon: <Javascript />, name: "JavaScript" },
     { icon: <ReactLogo />, name: "React" },
     { icon: <Nextdotjs />, name: "Next.js" },
-    { icon: <Assembly />, name: "Assembly" },
     { icon: <Nodedotjs />, name: "Node.js" },
     { icon: <Python />, name: "Python" },
-    { icon: <C />, name: "C" },
-    { icon: <Cplusplus />, name: "C++" },
-    { icon: <Vercel />, name: "Vercel" },
-    { icon: <Express />, name: "Express" },
+    { icon: <Fastapi />, name: "FastAPI" },
+    { icon: <Postgresql />, name: "PostgreSQL" },
     { icon: <Mongodb />, name: "MongoDB" },
     { icon: <Mysql />, name: "MySQL" },
-    { icon: <Bash />, name: "Bash" },
-    { icon: <Pandas />, name: "Pandas" },
-    { icon: <Numpy />, name: "Numpy" },
-    { icon: <ScikitLearn />, name: "Scikit Learn" },
-
+    { icon: <Tailwindcss />, name: "Tailwind CSS" },
+    { icon: <Express />, name: "Express" },
+    { icon: <Docker />, name: "Docker" },
+    { icon: <Git />, name: "Git" },
+    { icon: <Github />, name: "GitHub" },
+    { icon: <Linux />, name: "Linux" },
+    { icon: <C />, name: "C" },
+    { icon: <Cplusplus />, name: "C++" },
+    { icon: <Html5 />, name: "HTML5" },
+    { icon: <Css3 />, name: "CSS3" },
+    { icon: <Vercel />, name: "Vercel" },
   ]
 
   const learning = [
     { icon: <Tensorflow />, name: "TensorFlow" },
+    { icon: <ScikitLearn />, name: "Scikit-Learn" },
     { icon: <Django />, name: "Django" },
-    { icon: <Docker />, name: "Docker" },
   ]
 
   const additionalSkills = [
-    { icon: <Git />, name: "Git" },
-    { icon: <Linux />, name: "Linux" },
-    { icon: <Github />, name: "GitHub" },
+    { icon: <Bash />, name: "Bash" },
+    { icon: <Pandas />, name: "Pandas" },
+    { icon: <Numpy />, name: "NumPy" },
   ]
 
   return (

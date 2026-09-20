@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mb-8 h-12 flex justify-center"
         >
-          <div className="typing-demo vw-100 text-xl md:text-2xl">Second Year Computer Science Student at ESI Algiers</div>
+          <div className="typing-demo vw-100 text-xl md:text-2xl">Computer Science Engineering Student at ESI Algiers</div>
         </motion.div>
 
         <motion.p
@@ -63,7 +63,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-8"
         >
-          Development Manager at ETIC Club, passionate about web development, data science, and open source.
+          Full Stack & Backend Developer, Development Manager at ETIC Club, and 1st Prize Winner of Smart DZ Hackathon. Passionate about software architecture, FinTech, cloud systems, and building scalable platforms.
         </motion.p>
 
         <motion.div

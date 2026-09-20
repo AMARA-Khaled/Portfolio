@@ -15,48 +15,52 @@ export default function Projects() {
 
    const projects = [
       {
+         title: "Wrave – MCP Gateway & Browser Automation",
+         description:
+            "High-performance Model Context Protocol (MCP) gateway connecting AI harnesses (Claude Code, Antigravity, Cursor, Codex) to Brave Browser via Chrome DevTools Protocol (CDP) and duplex WebSockets. Features 21 automation primitives including 1-turn compound actions.",
+         technologies: ["TypeScript", "Node.js", "MCP", "CDP", "WebSocket", "Brave Browser"],
+         githubUrl: "https://github.com/AMARA-Khaled/wrave",
+         featured: true,
+      },
+      {
+         title: "Maida – Modular POS & Management System",
+         description:
+            "Modular commercial and restaurant management system composed of 6 interconnected micro-applications (POS, real-time order processing, inventory tracking). Backend designed with FastAPI & Node.js with PostgreSQL ACID transactional integrity. 1st Prize Winner at Hackathon Smart DZ (Guiddini).",
+         technologies: ["Next.js", "FastAPI", "Python", "PostgreSQL", "TypeScript", "TailwindCSS"],
+         featured: true,
+      },
+      {
+         title: "Doctorcom – Intelligent Medical Platform",
+         description:
+            "Full-stack medical management web platform featuring diagnostic assistance, sensitive patient records, and automated clinical report generation. Built with React, Express, tRPC, PostgreSQL, and TanStack Query.",
+         technologies: ["React", "Express.js", "tRPC", "PostgreSQL", "TanStack", "TypeScript"],
+         githubUrl: "https://github.com/AMARA-Khaled/doctor.com",
+         featured: true,
+      },
+      {
+         title: "ETIC Talents & S2EE Platform – Enterprise ERP",
+         description:
+            "Comprehensive internal ERP and applicant tracking portal for ETIC Club, featuring automated Discord bot notifications, granular RBAC permissions, and recruitment pipeline tracking.",
+         technologies: ["Next.js", "React", "TypeScript", "TanStack", "Discord.js", "PostgreSQL"],
+         featured: true,
+      },
+      {
          title: "Meow-ssion Impossible Website",
          description:
-            "A website to Download and Explore a game, using Next.js. Features an engaging interface for game discovery and download functionality with modern web technologies.",
-         technologies: ["Next.js", "React", "TypeScript", "Web Development"],
+            "A website to Download and Explore an indie game, using Next.js. Features an engaging interface for game discovery and download functionality with modern web technologies.",
+         technologies: ["Next.js", "React", "TypeScript", "TailwindCSS"],
          liveUrl: "https://meow-ssion-impossible.vercel.app/",
          githubUrl: "https://github.com/AMARA-Khaled/meow-ssion-impossible-website",
-         featured: true,
-      },
-      {
-         title: "Needs.ai",
-         description:
-            "A full-stack product demand prediction website built with React.js, Express.js, and Python. Enables users to manage products and visualize future needs through advanced prediction algorithms.",
-         technologies: ["React.js", "Express.js", "Python", "Machine Learning"],
-         liveUrl: "https://needs-ai.vercel.app/",
-         githubUrl: null,
-         featured: true,
-      },
-      {
-         title: "Occupational Health Medical Visit Management",
-         description:
-            "A console-based system built in C to manage employee health visits, featuring efficient data storage and retrieval for patient information management.",
-         technologies: ["C", "Data Structures", "File I/O"],
-         githubUrl: "https://github.com/AMARA-Khaled/Occupational-Health-Medical-Visit-Management",
-         featured: false,
-      },
-      {
-         title: "Address Book Management System",
-         description:
-            "A low-level address book tool developed using x86 Assembly language for efficient data storage and basic user interactions.",
-         technologies: ["Assembly", "x86", "Low-level Programming"],
-         githubUrl: "https://github.com/AMARA-Khaled/adress-book-management-system",
          featured: false,
       },
       {
          title: "Optimized Word Search Using BST Variants",
          description:
-         "This academic project explores and evaluates different Binary Search Tree (BST) variants to optimize word search operations. Implemented in C and supported by Python for performance visualization, the project compares standard and customized BSTs to improve efficiency in single word and range searches. Detailed methodology and results are documented in accompanying reports and graphs.",
+            "Academic algorithmic research project evaluating different Binary Search Tree (BST) variants to optimize word lookup and range searches. Implemented in C and supported by Python for performance visualization.",
          technologies: ["C", "Python", "Data Structures", "Algorithm Analysis"],
          githubUrl: "https://github.com/AMARA-Khaled/Optimized-Word-Search-Using-BST-Variants",
          featured: false,
       },
-      
    ]
 
    const container = {

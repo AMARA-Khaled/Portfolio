@@ -3,8 +3,7 @@
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 import { Card, CardContent } from "@/components/ui/card"
-import { GraduationCap, Users, Calendar } from "lucide-react"
-import { Briefcase } from "lucide-react"
+import { GraduationCap, Users, Calendar, Briefcase, Award } from "lucide-react"
 
 export default function Experience() {
   const [ref, inView] = useInView({
@@ -14,52 +13,97 @@ export default function Experience() {
 
   const experiences = [
     {
-      organization: <a href="https://www.esi.dz/">ESI Algiers</a>,
-      icon: <GraduationCap className="w-5 h-5" />,
-      type: "education",
-      roles: [
-        {
-          title: "Computer Science Student",
-          period: "2024 - Present (2nd Year)",
-          description:
-            "2nd year Computer Science student focusing on software development, algorithms, and data structures.",
-        },
-      ],
-    },
-    {
-      organization: "Cosider TP - CSI",
+      organization: "Djezzy",
       icon: <Briefcase className="w-5 h-5" />,
       type: "internship",
       roles: [
         {
-          title: "Intern",
-          period: "June - July 2025",
+          title: "Data Science & AI / Backend Engineering Intern",
+          period: "June 2026 - July 2026",
           description:
-            "Completed a 2-week internship at Cosider TP - CSI, gaining practical and theoretical experience in software development, company hierarchy and project management.",
+            "Contributed to an enterprise Business Copilot integrating Agentic RAG and Text-to-SQL for querying complex relational databases. Modeled and optimized PostgreSQL & pgvector queries for high integrity, fast response times, and large transaction volumes.",
         },
       ],
     },
     {
-      organization: <a href="https://www.instagram.com/etic_club/">ETIC Club</a>,
+      organization: "Orientation ESI",
+      icon: <Briefcase className="w-5 h-5" />,
+      type: "automation",
+      roles: [
+        {
+          title: "Helpdesk & Automation Agent",
+          period: "July 2026 - August 2026",
+          description:
+            "Engineered automated Python pipelines and OCR extraction tools to streamline the validation and processing of student candidate files.",
+        },
+      ],
+    },
+    {
+      organization: <a href="https://www.instagram.com/etic_club/" target="_blank" rel="noopener noreferrer">ETIC Club</a>,
       icon: <Calendar className="w-5 h-5" />,
       type: "leadership",
       roles: [
         {
           title: "Development Department Manager",
-          period: "August 2025 - Present",
+          period: "August 2025 - August 2026",
           description:
-            "Leading the development department, overseeing technical projects and mentoring team members in software development practices.",
+            "Supervised end-to-end full-stack web platforms (React, Next.js, Node.js, RBAC permissions, Discord bot integration). Mentored and trained 25+ developers on Git workflows, software architecture, and led production code reviews.",
+        },
+        {
+          title: "Technical Hackathon Coach & Mentor",
+          period: "2025 - 2026",
+          description:
+            "Mentored and coached 23 developer teams during national hackathons (TCXII & AUP4) on modular system architecture, API design, and rapid prototyping under strict time constraints.",
         },
         {
           title: "Before S2EE 16 Event Coordinator",
           period: "March - May 2025",
           description:
-            "Coordinated events for the ETIC Club, demonstrating leadership and organizational skills in tech community building and project management.",
+            "Coordinated logistics and team workflows for the prominent S2EE event, driving student tech engagement and organizational excellence.",
         },
       ],
     },
     {
-      organization: <a href="https://www.instagram.com/soai_algiers/">SOAI Club</a>,
+      organization: "Smart DZ Hackathon (Guiddini)",
+      icon: <Award className="w-5 h-5" />,
+      type: "award",
+      roles: [
+        {
+          title: "1st Prize Winner — Hackathon Smart DZ",
+          period: "2026",
+          description:
+            "Awarded 1st place for Project Maida: a full-fledged modular restaurant and business management ecosystem of 6 interconnected micro-applications with FastAPI backend, Next.js frontend, and reliable transaction flows.",
+        },
+      ],
+    },
+    {
+      organization: "Cosider Travaux Publics",
+      icon: <Briefcase className="w-5 h-5" />,
+      type: "internship",
+      roles: [
+        {
+          title: "IT & Systems Intern",
+          period: "June - July 2025",
+          description:
+            "Administered and maintained Linux enterprise servers, performed network diagnostics, configured access security controls, and provided system-level technical support.",
+        },
+      ],
+    },
+    {
+      organization: <a href="https://www.esi.dz/" target="_blank" rel="noopener noreferrer">ESI Algiers (École Nationale Supérieure d'Informatique)</a>,
+      icon: <GraduationCap className="w-5 h-5" />,
+      type: "education",
+      roles: [
+        {
+          title: "Engineering Degree in Computer Science (Cycle Ingénieur)",
+          period: "2024 - 2029 (Expected)",
+          description:
+            "Focusing on software engineering, operating systems & computer networks, relational and distributed databases, advanced algorithms, and secure web application development.",
+        },
+      ],
+    },
+    {
+      organization: <a href="https://www.instagram.com/shellmates/" target="_blank" rel="noopener noreferrer">Shellmates Club</a>,
       icon: <Users className="w-5 h-5" />,
       type: "membership",
       roles: [
@@ -67,12 +111,12 @@ export default function Experience() {
           title: "Active Member",
           period: "2024 - Present",
           description:
-            "Contributing member of SOAI Club, participating in various tech initiatives and collaborative projects.",
+            "Member of Shellmates cybersecurity club, exploring web security, penetration testing, and participating in CTF competitions.",
         },
       ],
     },
     {
-      organization: <a href="https://www.instagram.com/shellmates/">Shellmates Club</a>,
+      organization: <a href="https://www.instagram.com/soai_algiers/" target="_blank" rel="noopener noreferrer">SOAI Club</a>,
       icon: <Users className="w-5 h-5" />,
       type: "membership",
       roles: [
@@ -80,7 +124,7 @@ export default function Experience() {
           title: "Active Member",
           period: "2024 - Present",
           description:
-            "Member of Shellmates cybersecurity club, exploring security concepts and participating in CTF competitions.",
+            "Contributing member of the School of AI Algiers club, engaging in machine learning workshops and collaborative AI projects.",
         },
       ],
     },
